@@ -9,7 +9,7 @@ Este projeto é o Desafio Final do Workshop da "Fábrica de Software". O nosso o
 * Filtro de Busca 🔍
 
 ## Acessar o Site 🌐
-Você pode conferir a Pokédex online no seguinte link:
+Você pode conferir a Pokédex criada nesse projeto no seguinte link:
 
 [**Acessar a Pokédex**](https://pokedex-frontend-fabrica25-2.vercel.app/)
 
