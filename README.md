@@ -6,7 +6,10 @@ Este projeto é o Desafio Final do Workshop da "Fábrica de Software". O nosso o
 ## Funcionalidades 🚀
 * Exibição de uma lista de Pokémons.
 * Detalhes de cada Pokémon ao ser selecionado.
-* Filtro de Busca 🔍
+* Filtro de Busca para filtrar Pokémons por nome.🔍
+* Alternância entre grade e lista .
+* Design responsivo.
+* Rodapé personalizado.
 
 ## Acessar o Site 🌐
 Você pode conferir a Pokédex criada nesse projeto no seguinte link:
