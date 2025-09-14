@@ -1,0 +1,92 @@
+.pokemon-card-container {
+  border-radius: 12px !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+  background-color: white !important;
+  overflow: hidden;
+  border: none;
+}
+
+.pokemon-card-container:hover {
+  transform: translateY(-8px);
+}
+
+.card-image-frame {
+  height: 250px;
+  background-size: cover; /* Esta linha pode ser removida */
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-image-frame img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.card-footer-content {
+  padding: 12px 16px !important;
+  background-color: white !important;
+  border-top: 1px solid #eee;
+  z-index: 2;
+}
+
+/* Adiciona o efeito de aura */
+.pokemon-details-card {
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 5px #673ab7, 0 0 10px #673ab7, 0 0 15px #673ab7;
+  }
+  to {
+    box-shadow: 0 0 10px #673ab7, 0 0 20px #673ab7, 0 0 30px #673ab7;
+  }
+}
+
+
+
+
+/*
+ * Animação para a aura roxa.
+ * Ela fará com que a box-shadow pulse suavemente.
+ */
+@keyframes pulse-aura {
+  0% {
+    box-shadow: 0 0 10px 5px rgba(160, 64, 160, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px rgba(160, 64, 160, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px 5px rgba(160, 64, 160, 0.4);
+  }
+}
+
+/* Estilos da carta */
+.pokemon-card-container {
+  /* Transições para animações suaves */
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  
+  /* Estilos visuais da carta */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  
+  /* Aplica a animação da aura roxa */
+  animation: pulse-aura 2s infinite ease-in-out;
+}
+
+/* Efeito ao passar o mouse */
+.pokemon-card-container:hover {
+  /* Mantém a aura roxa no hover, mas com a box-shadow fixa */
+  box-shadow: 0 0 25px 12px rgba(160, 64, 160, 1);
+  
+  /* Efeito de "levantar" a carta */
+  transform: translateY(-5px);
+}
+

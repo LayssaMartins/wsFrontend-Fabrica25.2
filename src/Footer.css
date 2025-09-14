@@ -1,0 +1,11 @@
+footer {
+  background-color:#a8009cfa; /* Fundo */
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+  position: fixed; /* Isso faz com que ele fique sempre na tela */
+  bottom: 0; /* Coloca ele na parte de baixo */
+  left: 0;
+  margin-top: 2rem;
+}
