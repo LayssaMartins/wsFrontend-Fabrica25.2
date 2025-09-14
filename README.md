@@ -1,7 +1,7 @@
 # Desafio wsFrontend-Fabrica25.2 ✨
 
 ## Descrição 
-Este projeto é o Desafio Final do curso "Fábrica de Software". O nosso objetivo foi criar uma Pokédex personalizada, utilizando todas as tecnologias e conhecimentos adquiridos durante os workshops. A experiência de desenvolver este projeto, com o consumo de uma API, foi fundamental e contribuiu muito para o meu aprendizado e crescimento na área de desenvolvimento.
+Este projeto é o Desafio Final do Workshop da "Fábrica de Software". O nosso objetivo foi criar uma Pokédex personalizada, utilizando todas as tecnologias e conhecimentos adquiridos durante os workshops. A experiência de desenvolver este projeto, com o consumo de uma API, foi fundamental e contribuiu muito para o meu aprendizado e crescimento na área de desenvolvimento.
 
 ## Funcionalidades 🚀
 * Exibição de uma lista de Pokémons.
